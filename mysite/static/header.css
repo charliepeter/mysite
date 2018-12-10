@@ -1,0 +1,26 @@
+#header-main {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#header-main ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+#header-main li {
+    display: inline-block;
+    float: none
+}
+
+#header-main a {
+    color: inherit;
+    text-decoration: inherit;
+    display: block;
+    padding-right: 50px;
+  }
+  
+ #header-main a:hover {
+    color: grey;
+  }

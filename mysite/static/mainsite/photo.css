@@ -1,0 +1,45 @@
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 30px;
+    text-align: center;
+}
+
+.box {
+    background-color: #444;
+    color: #fff;
+    padding: 20px;
+    font-size: 200%;
+    height: 200px;
+    
+
+    /* 2-d box shadow Hatty doesn't like*/
+    /*box-shadow: 0 5px 3px -3px black;*/
+
+    background-size: cover;
+
+    /* This is trying to get the text in the center of the grid-item*/
+    display: grid;
+    align-items: center;
+    justify-items: center;
+
+    /* Texe Outline */
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*
+
+Hover effect over each post. 
+
+TODO: work out how to make background blur without the text. Maby need to use <img> instead of background-image?
+
+.box:hover {
+    filter: blur(1px);
+    transform: scale(1.05,1.05); 
+}
+*/
